@@ -1,0 +1,17 @@
+
+/* This makes the images look consistent and darkens them slightly so text is easier to read */
+.carousel-item img {
+    height: 80vh; /* Sets height to 80% of the screen */
+    object-fit: cover; /* Prevents stretching */
+    filter: brightness(60%); 
+}
+
+.carousel-caption {
+    bottom: 30%; /* Moves text up towards the middle */
+}
+
+.navbar-brand-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
